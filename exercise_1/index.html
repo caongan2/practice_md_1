@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let inputPhysical;
+  let inputMath;
+  let inputBiological;
+  inputPhysical = +prompt("Input Physical: ")
+  inputMath = +prompt("Input Math:")
+  inputBiological = +prompt("Input Biological:")
+  let physical = parseInt(inputPhysical)
+  let math = parseInt(inputMath)
+  let biological = parseInt(inputBiological)
+  let averageScore = (physical + math + biological)/3
+  let totalScore = physical + math + biological
+  document.write("Average score: " + averageScore + " Total score: " + totalScore)
+</script>
+</body>
+</html>
